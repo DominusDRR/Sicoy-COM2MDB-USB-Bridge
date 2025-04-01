@@ -29,22 +29,42 @@ El bit de comprobación CHK es la suma de los comandos y todos los datos (Checks
 
 La parte baja de 0x0434 es 0x34.
 
+**No todos los comandos envían datos, es decir, son sólo un comando y su byte CHK**, por ejemplo, para reiniciar, a un monedero, la trama es así:
+
+0xFE 0x08 0x01 0xFE 0x08 0x00.
+
+Nótese que aquí, el byte CHK es el mismo, ya que no hay más bytes que se consideren datos, luego del comando.
+
+
+
 ### Comandos del sistema
 Los comandos soportados en la versión 1.00 del firmware son los siguientes:
 #### Monedero
+
 Reinicio → 0x08
+
 POLL → 0x0B
+
 Tipo de moneda → 0x0C
+
 Comando de expansión → 0x0F (Subcomando 0x01 para habilitación de características)
 
 #### Billetera
+
 Reinicio → 0x30
+
 Calibración → 0x31
+
 Seguridad → 0x32
+
 POLL → 0x33
+
 Tipo de billetera → 0x34
+
 Depósito → 0x35
+
 Comando de expansión → 0x37 (Subcomando 0x01 para habilitación de características)
+
 
 ## Características físicas  
 - Especificaciones y dimensiones con gráficos.  
