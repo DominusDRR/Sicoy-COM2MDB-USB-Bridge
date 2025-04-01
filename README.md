@@ -91,6 +91,12 @@ Host: CMD* + Dato0 + Dato1 + ... + DatoN + CHK
 
 Periférico: ACK* 
 
+#### d. Comando con datos adicionales
+
+No hay respuesta desde la máquina periférico, o ésta, responde con un NACK (no comprende la trama) o un RET (repetir ultima trama)
+
+**En este caso, el usuario no debe preocuparse de reintentar enviar la trama inciial, el dispositivo, lo hace de manera automática hasta 5 veces ante de abortar e informar con uan señal audible**
+
 Nota: El asterisco (*) denota que el noveno bit está en 1.
 
 
