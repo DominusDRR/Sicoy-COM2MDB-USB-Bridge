@@ -82,14 +82,14 @@ Host: CMD* + CHK
 
 Periférico: Dato0, Dato1, ..., DatoN, CHK*
 
-Host: ACK
+Host: ACK [Este ACK lo genera el dispositivo automáticamente]
 
 #### c. Comando con datos adicionales
 Si se envía un comando con datos adicionales y su byte CHK, el periférico responderá con un ACK:
 
 Host: CMD* + Dato0 + Dato1 + ... + DatoN + CHK
 
-Periférico: ACK*
+Periférico: ACK* 
 
 Nota: El asterisco (*) denota que el noveno bit está en 1.
 
