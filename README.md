@@ -65,6 +65,34 @@ Depósito → 0x35
 
 Comando de expansión → 0x37 (Subcomando 0x01 para habilitación de características)
 
+### Reglas de operación para el envío y recepción de comandos y datos
+El dispositivo sigue las siguientes reglas para la transmisión y recepción de bytes de manera automática, esto significa que el usuario, no debe preocuparse en cumplire esas reglas, el dispositivo lo hace por si sólo.
+
+#### a. Comando sin datos
+Si se envía un comando que no necesita datos, solo el comando y su byte de CHK, la máquina responde con un ACK:
+
+Host: CMD* + CHK
+
+Periférico: ACK*
+
+#### b. Comando con datos de respuesta
+Si se envía un comando que requiere datos de respuesta, el periférico enviará uno o más bytes de datos, seguidos por su byte CHK. Finalmente, el periférico enviará un ACK:
+
+Host: CMD* + CHK
+
+Periférico: Dato0, Dato1, ..., DatoN, CHK*
+
+Host: ACK
+
+#### c. Comando con datos adicionales
+Si se envía un comando con datos adicionales y su byte CHK, el periférico responderá con un ACK:
+
+Host: CMD* + Dato0 + Dato1 + ... + DatoN + CHK
+
+Periférico: ACK*
+
+Nota: El asterisco (*) denota que el noveno bit está en 1.
+
 
 ## Características físicas  
 - Especificaciones y dimensiones con gráficos.  
