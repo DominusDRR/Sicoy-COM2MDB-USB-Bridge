@@ -54,7 +54,25 @@ El tercer led indica cuando ha recibido una trama de bytes desde una máquina pe
 El cuarto led, indica un error de trama desde el anfitrión, desde una máquina periférico o una no respuesta desde la máquina periférico.
 
 El quito led, se activa cuando está presente los 24V en el bus MDB
-   
 
+#  Alimentación de 24V para el bus MDB
+
+Es una bornera de dos terminales para conectar 24VDC para el bus MDB, el terminal izquierdo, corresponde al terminal negativo, el terminal derecho corresponde al terminal positivo.
+
+Internamente hay un diodo rectificador para evitar una polarizacion inversa en el bus MDB, el diodo led correspondiente en el panel indica la polaridad correcta.
+   
+# Soporte de sujeción
+
+La parte posterior del dispositivo, posee una muesca que permite sujetar al dispositivo a un riel DIN.
+
+# Puerto USB tipo C.
+
+El puerto de conexión hacia un computador, es mediante USB de tipo 2.0, sin embargo posee un puerto C que es la norma más actual de este tipo de comunicación.
+
+# Botón de comando Break y modo de programación (Bootloader)
+
+Este botón permite generar un caracter break de aproximadamente 160ms en el bus MDB para provocar un reinicio en cualquier periférico conectado al bus, y esta es una caracteristca propia de este protocolo.
+
+Este botón también permite ingresar al modo de bootloader cuando se desea actualizar el firmware del dispositivo.
 
 
