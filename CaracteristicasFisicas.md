@@ -24,6 +24,29 @@ Descripción de las partes:
 6. Montura para riel DIN
 
 7. Botón de comando Break y modo de programación (Bootloader)
+
+# Conector MDB.
+
+El conector MDB cumple con la norma del protocolo (Master Connector) y es como se muestra en la siguiente figura:
+
+![ConectorMDB](https://github.com/user-attachments/assets/b5c3c590-43e6-4125-9fc9-5c8d204b57f8)
+
+
+# Panel Frontal.
+
+El panel frontal es como se muestra en la siguiente figura:
+
+![PanelFrontal](https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921)
+
+Posee 5 diodos led que forman una columna, empezando desde arriba hacia abajo, el primero indica que el microcontrolador interno está funcionando, cuando eso sucede, se enciende y apaga a un ritmo de 500 ms.
+
+El segundo led indica que se ha transmitido una trama de bytes desde el dispositivo.
+
+El tercer led indica cuando ha recibido una trama de bytes desde una máquina periférico
+
+El cuarto led, indica un error de trama desde el anfitrión, desde una máquina periférico o una no respuesta desde la máquina periférico.
+
+El quito led, se activa cuando está presente los 24V en el bus MDB
    
 
 
