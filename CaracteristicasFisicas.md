@@ -1,7 +1,8 @@
 El dispositivo está contenido en una caja plástica de material ABS, diseñada para montaje en riel DIN.
 
-
-![Dimensiones del Sicoy-COM2MDB-USB](https://github.com/user-attachments/assets/91bc9894-4d6d-413f-9d7d-555d3a9f086c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/91bc9894-4d6d-413f-9d7d-555d3a9f086c" alt="Dimensiones del Sicoy-COM2MDB-USB" width="100">
+</p>
 
 
 Las principales partes exteriores del dispositivo se muestran en la siguiente figura:
@@ -30,7 +31,7 @@ Descripción de las partes:
 El conector MDB cumple con la norma del protocolo (Master Connector) y es como se muestra en la siguiente figura:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b5c3c590-43e6-4125-9fc9-5c8d204b57f8" alt="Conector MDB" width="150">
+  <img src="https://github.com/user-attachments/assets/b5c3c590-43e6-4125-9fc9-5c8d204b57f8" alt="Conector MDB" width="350">
 </p>
 
 # Panel Frontal.
@@ -38,7 +39,7 @@ El conector MDB cumple con la norma del protocolo (Master Connector) y es como s
 El panel frontal es como se muestra en la siguiente figura:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="150">
+  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="100">
 </p>
 
 
