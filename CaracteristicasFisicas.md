@@ -38,6 +38,11 @@ El panel frontal es como se muestra en la siguiente figura:
 
 ![PanelFrontal](https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="400">
+</p>
+
+
 Posee 5 diodos led que forman una columna, empezando desde arriba hacia abajo, el primero indica que el microcontrolador interno está funcionando, cuando eso sucede, se enciende y apaga a un ritmo de 500 ms.
 
 El segundo led indica que se ha transmitido una trama de bytes desde el dispositivo.
