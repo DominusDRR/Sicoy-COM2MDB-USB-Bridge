@@ -88,7 +88,9 @@ Host: CMD* + Dato0 + Dato1 + ... + DatoN + CHK
 
 Periférico: ACK* 
 
-#### d. Comando sin respuesta o alterados desde la máquian periférico
+#### d. Comando sin respuesta o alterados desde la máquina periférico
+
+Nota: El asterisco (*) denota que el noveno bit está en 1.
 
 No hay respuesta desde la máquina periférico, o llegan datos ilógicos, o ésta, responde con un NACK (no comprende la trama) o un RET (repetir ultima trama)
 
