@@ -1,7 +1,7 @@
 El dispositivo está contenido en una caja plástica de material ABS, diseñada para montaje en riel DIN.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/91bc9894-4d6d-413f-9d7d-555d3a9f086c" alt="Dimensiones del Sicoy-COM2MDB-USB" width="300">
+  <img src="https://github.com/user-attachments/assets/91bc9894-4d6d-413f-9d7d-555d3a9f086c" alt="Dimensiones del Sicoy-COM2MDB-USB" width="700">
 </p>
 
 
