@@ -29,15 +29,16 @@ Descripción de las partes:
 
 El conector MDB cumple con la norma del protocolo (Master Connector) y es como se muestra en la siguiente figura:
 
-![ConectorMDB](https://github.com/user-attachments/assets/b5c3c590-43e6-4125-9fc9-5c8d204b57f8)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b5c3c590-43e6-4125-9fc9-5c8d204b57f8" alt="Conector MDB" width="150">
+</p>
 
 # Panel Frontal.
 
 El panel frontal es como se muestra en la siguiente figura:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="200">
+  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="150">
 </p>
 
 
