@@ -41,7 +41,7 @@ El conector MDB cumple con la norma del protocolo (Master Connector) y es como s
 El panel frontal es como se muestra en la siguiente figura:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="100">
+  <img src="https://github.com/user-attachments/assets/86dcf4f4-8adc-49fb-8050-dd6fb48ae921" alt="Panel Frontal" width="200">
 </p>
 
 
