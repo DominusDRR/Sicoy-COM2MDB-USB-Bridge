@@ -44,7 +44,17 @@ En algunas ocasiones pueden indicar que el periférico respondió con datos.
 
 Para conocer estos datos, se puede recurrir al comando DATOS
 
-## Comando LOGS.
+## Comando DATOS.
+
+Devuelve los datos de los logs que tienen esa información.
+
+![image](https://github.com/user-attachments/assets/eec10ca4-edb5-4aa3-88fe-2510f3a697e0)
+
+Los DATOS constan de dos partes, los datos en si, y al log que pertenecen.
+
+![image](https://github.com/user-attachments/assets/74dcd439-d4c0-4597-9bab-b2ca17c031f3)
+
+
 
 
 
