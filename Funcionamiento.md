@@ -89,6 +89,25 @@ De igual manera, si lo analizamos detenidamente, es así:
 
 0xFE 0x0C 0x00 // CHK = 0x0C = 0x0F + 0x01 + 0xFF + 0xFF + 0xFF + 0xFF
 
+![image](https://github.com/user-attachments/assets/8489f8f4-0071-4ac0-a511-dfb7ef7c82e7)
+
+### Habilitación de caracteristicas especiales con subcomando igual a 0x02 (Pago o entrega de monedas).
+
+Este comando tiene como primer dato el subcmando igual a uno, y el segundo dato es el valor de monedas que se desea entregar o pagar al usaurio del monedero.
+
+Un ejemplo de esta trama es:
+
+0xFE 0x0F 0x01 0xFE 0x02 0x00 0xFE 0x0A 0x00 0xFE 0x1B 0x00
+
+Esta trama analizada es:
+
+0xFE 0x0F 0x01 // Comando con noveno bit en 1
+0xFE 0x02 0x00 // Subcamndo igual a 2 (noveno bit en 0) 
+0xFE 0x0A 0x00 // Valor monedas a pagar
+0xFE 0x1B 0x00 // CHK, que es 0x0F + 0x02 + 0x0A = 0x1B
+
+![image](https://github.com/user-attachments/assets/531348ca-9f0f-4a38-9307-6180cfae28a5)
+
 
 
 
