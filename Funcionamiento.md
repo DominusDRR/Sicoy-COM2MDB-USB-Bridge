@@ -135,7 +135,11 @@ La trama de este comenado es:
 
 #### Comando de Seguridad de Billetera.
 
-Al emitir este comando, se debe incluir 2 bytes de datos. Cada bit de esos dos bytes indican el tipo de billete(s) con un nivel de seguridad "alto". Tenga en cuenta que los validadores que no admiten niveles de seguridad duales deben informar un nivel de seguridad "alto" en los bytes de respuesta Z9-Z10 al comando STATUS (31H). Por favor refiérase al manual del protocolo MDB para más detalles.
+Al emitir este comando, se debe incluir 2 bytes de datos. Cada bit de esos dos bytes indican el tipo de billete(s) con un nivel de seguridad "alto". Tenga en cuenta que los validadores que no admiten niveles de seguridad duales deben informar un nivel de seguridad "alto" en los bytes de respuesta Z9-Z10 al comando STATUS (31H). 
+
+La respuesta a este comando es un ACK
+
+Por favor refiérase al manual del protocolo MDB para más detalles.
 
 Un ejemplo de esta trama es:
 
