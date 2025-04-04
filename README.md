@@ -8,6 +8,8 @@ Este repositorio contiene el manual del dispositivo Sicoy COM2MDB USB Bridge  y 
 
 ## [d. Comandos ASCII de consulta](ASCII.md)  
 
+## [e. Actualización del firmware del dispositivo](Firmware.md)  
+
 
 ## Actualización y recuperación  
 ### Modo Bootloader  
