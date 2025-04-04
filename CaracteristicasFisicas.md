@@ -76,6 +76,7 @@ La parte posterior del dispositivo, posee una muesca que permite sujetar al disp
 </
 
 
+
 # Puerto USB tipo C.
 
 El puerto de conexión hacia un computador, es mediante USB de tipo 2.0, sin embargo posee un puerto C que es la norma más actual de este tipo de comunicación.
