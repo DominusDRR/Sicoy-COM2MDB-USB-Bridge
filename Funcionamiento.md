@@ -110,8 +110,17 @@ Esta trama analizada es:
 
 ![image](https://github.com/user-attachments/assets/531348ca-9f0f-4a38-9307-6180cfae28a5)
 
+### Comandos para billetera.
 
+#### Comando reinicio de billetera.
 
+Este comando reinicia la billetera conectado al bus MDB, y su trama es así:
+
+0xFE 0x30 0x01 0xFE 0x30 0x00
+
+La respuesta a este comando es un ACK, que significa que el comando ha sido procesado correctamente, el cual es 0x00.
+
+![image](https://github.com/user-attachments/assets/e9aa2214-f710-454a-a007-0c2648f35a07)
 
 
 
