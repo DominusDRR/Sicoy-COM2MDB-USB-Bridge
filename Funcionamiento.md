@@ -122,5 +122,16 @@ La respuesta a este comando es un ACK, que significa que el comando ha sido proc
 
 ![image](https://github.com/user-attachments/assets/e9aa2214-f710-454a-a007-0c2648f35a07)
 
+#### Comando de Calibración de Billetera.
+
+Este comando retorna la calibración de la billetera, para más detalles, vease el manual del protocolo MDB.
+
+La trama de este comenado es:
+
+0xFE 0x31 0x01 0xFE 0x31 0x00
+
+![image](https://github.com/user-attachments/assets/aba20f04-6fd6-45f9-a32e-c6c5318dbaf1)
+
+
 
 
