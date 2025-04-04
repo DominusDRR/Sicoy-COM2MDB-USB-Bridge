@@ -205,13 +205,18 @@ Este comando podemos explicar cada parte así:
 
 Este comando sirve para indicar la acción correspondiente a un billete en depósito.
 
-El monedero retorna un byte, denominado Y1, donde:
+El monedero envía un byte de datos, denominado Y1, donde:
 
-Si Y1 = 0; se rechazó el billete
-Si Y1 = xxxxxxx1; Guarda el billete («x» significa cualquier valor)
+Si Y1 = 0; rechazar el billete
+Si Y1 = xxxxxxx1; Guardar el billete («x» significa cualquier valor)
 
 Un ejemplo de este comando es:
 
 0xFE 0x35 0x01 0xFE 0x36 0x00.
+
+Este comando tiene por respuesta un ACK.
+
+![image](https://github.com/user-attachments/assets/44c08e2f-f58b-41e2-846b-637ba5abd2a7)
+
 
 
