@@ -34,6 +34,11 @@ Este comando permite conocer las tramas que han llegado desde el Host y las que 
 
 ![image](https://github.com/user-attachments/assets/c119abb8-958a-4566-90f9-1a7656630b8f)
 
+Cada línea consta de tres partes, a la izquiera, lo que el Host envío, en el centro lo que el periférico respondió y a al derecha el log al que pertenece.
+
+![image](https://github.com/user-attachments/assets/5605d902-ce71-4562-9c07-cd13b868522a)
+
+
 
 
 
