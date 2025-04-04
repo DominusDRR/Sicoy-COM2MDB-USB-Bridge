@@ -35,6 +35,8 @@ Su trama sera:
 
 0xFE 0x0B 0x01 0xFE 0x0N 0x00
 
+![image](https://github.com/user-attachments/assets/67378733-1b20-4848-871d-3e489481a27a)
+
 
 ### Comando habilitación de monedas en el monedero.
 
