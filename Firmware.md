@@ -26,7 +26,7 @@ La forma que el dispositivo regrese al modo bootloader para descargar un archivo
 2. Presionar el botón que envía un comando break al bus MDB.
 3. No dejar de presionar el botón.
 4. Conectar el cable USB.
-5. En el momento que suene una tonada musical (que es diferente a aquella cuando empeiza a funcionar en modo normmal), se debe soltar el botón
+5. En el momento que suene una tonada musical (que es diferente a aquella cuando empieza a funcionar en modo normal), se debe soltar el botón
 
 En ese momento el dispositivo entra al modo bootlader y está listo para que se descargue un archivo correcto
 
