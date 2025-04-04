@@ -20,6 +20,8 @@ Este comando reinicia al monedero conectado al bus MDB, y su trama es así:
 
 La respuesta a este comando es un ACK, que significa que el comando ha sido procesado correctamente, el cual es 0x00
 
+![image](https://github.com/user-attachments/assets/dbfcb8dc-6237-4c76-a8ac-ce769a4bfc61)
+
 
 ### Comando POLL de monedero.
 
