@@ -240,3 +240,5 @@ De igual manera, si lo analizamos detenidamente, es así:
 0xFE 0xFF 0x00 // Habilitando todos los bits de Z30 a Z33
 
 0xFE 0x37 0x00 // CHK = 0x37 = 0x0F + 0x01 + 0xFF + 0xFF + 0xFF + 0xFF
+
+![image](https://github.com/user-attachments/assets/0e0989ee-1b8c-4e06-95f7-36b987d5a39f)
