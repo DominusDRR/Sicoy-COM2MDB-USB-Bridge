@@ -173,6 +173,33 @@ Su trama sera:
 
 ![image](https://github.com/user-attachments/assets/d0a09ae2-da79-430b-aadd-b4769f046cde)
 
+#### Comando habilitación de billetes de la billetera
+
+Este comando consiste en 4 bytes, los dos primeros consisten en el tipo de monedas que el monedero aceptará.
+
+Cada bit representa un tipo de billete en particular, lo que significa hasta 16 tipos diferentes de billetes, poniendo en 1 lógico significa que acpetará esa billete, caso contrario, significa que no lo acepta.
+
+Los dos siguientes bytes significan los billetes que dispensará, de igual manera, cada bit corresponde a una moneda particular, y su despacho es habilitado en 1 lógico, y su bloqueo es con cero lógico.
+
+De igual manera, si la billetera acepta este comando con sus datos, responde un ACK.
+
+Una trama ejemplo de este comando es:
+
+0xFE 0x34 0x01 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0x30 0x00
+
+Este comando podemos explicar cada parte así:
+
+0xFE 0x34 0x01 // Comando y el noveno bit en 1L
+
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00 // Todas las 16 opciones de monedas que acepta son habilitadas, 
+
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00  // Todas las 16 opciones de monedas que devuelve o entrega de cambio son habilitadas
+
+0xFE 0x30 0x00  // Checksum, suma de 0x34 + 0xFF + 0xFF + 0xFF + 0xFF = 0x30
+
+![image](https://github.com/user-attachments/assets/39addac5-5e7a-4280-93bf-bce019e6a8ca)
 
 
 
