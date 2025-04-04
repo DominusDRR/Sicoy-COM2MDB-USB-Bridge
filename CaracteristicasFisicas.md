@@ -91,4 +91,9 @@ Este botón permite generar un caracter break de aproximadamente 160ms en el bus
 
 Este botón también permite ingresar al modo de bootloader cuando se desea actualizar el firmware del dispositivo.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/64fcef2e-d987-48a8-a973-73199ca6f1e6" alt="Boton Break" width="200">
+</p>
+
+
 
