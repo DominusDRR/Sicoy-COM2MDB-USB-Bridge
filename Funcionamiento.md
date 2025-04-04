@@ -4,6 +4,10 @@ El dispositivo se alimenta directamente del voltaje proporcionado por el puerto 
 
 Para conectar el dispositivo, utilice un cable USB según se muestra en la siguiente figura.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/82a74a87-e02f-4d33-a936-c04b554bd524" alt="Riel DIN" width="200">
+</p>
+
 Al conectar el dispositivo al puerto USB, el sistema operativo asignará automáticamente un número de puerto COM virtual.
 
 Cuando el dispositivo se energiza, emite una breve tonada musical, indicando que está listo para operar.
