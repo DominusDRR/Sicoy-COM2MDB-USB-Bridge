@@ -35,7 +35,7 @@ Si tiene que reportar algo, y puede retornar hasta 16 bytes. Si desea conocer el
 
 Su trama sera:
 
-0xFE 0x0B 0x01 0xFE 0x0N 0x00
+0xFE 0x0B 0x01 0xFE 0x0B 0x00
 
 ![image](https://github.com/user-attachments/assets/67378733-1b20-4848-871d-3e489481a27a)
 
@@ -156,8 +156,18 @@ Cada parte de este comando es:
 
 ![image](https://github.com/user-attachments/assets/a9282c5c-fa97-403e-8671-310092d2df33)
 
+## Comando POLL de Billetera.
+
+Este comando solicita de cambio de estado de actividad, lo cual permite obtener un reporte por parte de la billetera.
+
+Si no tiene nada que reportar, retorna un ACK.
+
+Su trama sera:
+
+0xFE 0x33 0x01 0xFE 0x33 0x00.
 
 
+![image](https://github.com/user-attachments/assets/d0a09ae2-da79-430b-aadd-b4769f046cde)
 
 
 
