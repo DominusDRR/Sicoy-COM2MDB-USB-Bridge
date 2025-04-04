@@ -150,6 +150,9 @@ Cada parte de este comando es:
 
 0xFE 0x30 0x00 // CHK = 0x32 + 0xFF + 0xFF = 0x30
 
+![image](https://github.com/user-attachments/assets/a9282c5c-fa97-403e-8671-310092d2df33)
+
+
 
 
 
