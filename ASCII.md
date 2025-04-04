@@ -32,7 +32,7 @@ Este comando permite conocer cualquier error de la tarea del UART que envía dat
 Este comando permite conocer las tramas que han llegado desde el Host y las que ha recibido desde el bus MDB, puede almacenar hasta 256 logs.
 
 
-![image](https://github.com/user-attachments/assets/51cc2afd-7cbc-402b-97d4-2b8964998259)
+![image](https://github.com/user-attachments/assets/c119abb8-958a-4566-90f9-1a7656630b8f)
 
 
 
