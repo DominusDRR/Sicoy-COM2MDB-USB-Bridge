@@ -32,3 +32,5 @@ En ese momento el dispositivo entra al modo bootlader y está listo para que se 
 
 ## Caracteristicas del Modo Bootloader
 
+En este modo, los diodos leds del panel frontal, se encienden de manera alternada, y una señal acústica de corta duración suena de manera periódica.
+
