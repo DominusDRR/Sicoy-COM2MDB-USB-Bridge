@@ -71,6 +71,11 @@ Internamente hay un diodo rectificador para evitar una polarizacion inversa en e
 
 La parte posterior del dispositivo, posee una muesca que permite sujetar al dispositivo a un riel DIN.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/29a90b70-46db-4ffc-9ca5-180411981b7b" alt="Conexión de 24V" width="200">
+</
+
+
 # Puerto USB tipo C.
 
 El puerto de conexión hacia un computador, es mediante USB de tipo 2.0, sin embargo posee un puerto C que es la norma más actual de este tipo de comunicación.
