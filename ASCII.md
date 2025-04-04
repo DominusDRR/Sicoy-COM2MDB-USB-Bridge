@@ -65,7 +65,7 @@ Este comando no devuelve ningún respuesta, ya que el dispositivo es reiniciado 
 
 ## Comando RESET.
 
-Este comando reiniciar al dispositivo.
+Este comando reinicia al dispositivo.
 
 Este comando no devuelve ningún respuesta.
 
