@@ -64,7 +64,7 @@ Este comando podemos explicar cada parte así:
 
 0xFE 0x08 0x00  // Checksum, suma de 0x0C + 0xFF + 0xFF + 0xFF + 0xFF = 0x08
 
-
+![image](https://github.com/user-attachments/assets/9d42a8ec-cd37-4686-8834-e7a19c4673d1)
 
  
 ### Habilitación de caracteristicas especiales con subcomando igual a 0x01.
