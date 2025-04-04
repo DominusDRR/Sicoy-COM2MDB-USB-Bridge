@@ -63,6 +63,13 @@ Este comando no devuelve ningún respuesta, ya que el dispositivo es reiniciado 
 ![image](https://github.com/user-attachments/assets/6cc3e5e4-a628-4d46-ae7b-81f1c95d8208)
 
 
+## Comando RESET.
+
+Este comando reiniciar al dispositivo.
+
+Este comando no devuelve ningún respuesta.
+
+![image](https://github.com/user-attachments/assets/7cda08ef-e66b-4d8b-b60e-57d1d0784946)
 
 
 
