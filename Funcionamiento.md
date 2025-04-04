@@ -201,5 +201,17 @@ Este comando podemos explicar cada parte así:
 
 ![image](https://github.com/user-attachments/assets/39addac5-5e7a-4280-93bf-bce019e6a8ca)
 
+#### Comando de depósito de billetera.
+
+Este comando sirve para indicar la acción correspondiente a un billete en depósito.
+
+El monedero retorna un byte, denominado Y1, donde:
+
+Si Y1 = 0; se rechazó el billete
+Si Y1 = xxxxxxx1; Guarda el billete («x» significa cualquier valor)
+
+Un ejemplo de este comando es:
+
+0xFE 0x35 0x01 0xFE 0x36 0x00.
 
 
