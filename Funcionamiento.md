@@ -12,7 +12,9 @@ Una vez identificado el puerto COM asignado, el usuario podrá enviar y recibir 
 
 ## Ejemplos de Comandos MDB.
 
-### Comando reinicio de monedero.
+### Comandos para monedero
+
+#### Comando reinicio de monedero.
 
 Este comando reinicia al monedero conectado al bus MDB, y su trama es así:
 
@@ -23,7 +25,7 @@ La respuesta a este comando es un ACK, que significa que el comando ha sido proc
 ![image](https://github.com/user-attachments/assets/dbfcb8dc-6237-4c76-a8ac-ce769a4bfc61)
 
 
-### Comando POLL de monedero.
+#### Comando POLL de monedero.
 
 Este comando solicita de cambio de estado de actividad, lo cual permite obtener un reporte por parte del monedero.
 
@@ -38,7 +40,7 @@ Su trama sera:
 ![image](https://github.com/user-attachments/assets/67378733-1b20-4848-871d-3e489481a27a)
 
 
-### Comando habilitación de monedas en el monedero.
+#### Comando habilitación de monedas en el monedero.
 
 Este comando consiste en 4 bytes, los dos primeros consisten en el tipo de monedas que el monedero aceptará.
 
@@ -67,7 +69,7 @@ Este comando podemos explicar cada parte así:
 ![image](https://github.com/user-attachments/assets/9d42a8ec-cd37-4686-8834-e7a19c4673d1)
 
  
-### Habilitación de caracteristicas especiales con subcomando igual a 0x01.
+#### Habilitación de caracteristicas especiales con subcomando igual a 0x01.
 
 Este comando se utiliza para habilitar cada una de las funciones opcionales definidas en los puntos del sub comando 0x00 (Aun no implementado) Z30 a Z33 anteriores correpondiente al comando . Para habilitar una función, se establece un bit en 1 ógico cada bite de los datos.
 
@@ -91,7 +93,7 @@ De igual manera, si lo analizamos detenidamente, es así:
 
 ![image](https://github.com/user-attachments/assets/8489f8f4-0071-4ac0-a511-dfb7ef7c82e7)
 
-### Habilitación de caracteristicas especiales con subcomando igual a 0x02 (Pago o entrega de monedas).
+#### Habilitación de caracteristicas especiales con subcomando igual a 0x02 (Pago o entrega de monedas).
 
 Este comando tiene como primer dato el subcmando igual a uno, y el segundo dato es el valor de monedas que se desea entregar o pagar al usaurio del monedero.
 
