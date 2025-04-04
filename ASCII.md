@@ -54,6 +54,15 @@ Los DATOS constan de dos partes, los datos en si, y al log que pertenecen.
 
 ![image](https://github.com/user-attachments/assets/74dcd439-d4c0-4597-9bab-b2ca17c031f3)
 
+## Comando BOOT.
+
+Este comando permite ingresar al modo de actualización del firmware del dispositivo, véase el capitulo relacionado para más detalles.
+
+Este comando no devuelve ningún respuesta, ya que el dispositivo es reiniciado para entrar en ese modo.
+
+![image](https://github.com/user-attachments/assets/6cc3e5e4-a628-4d46-ae7b-81f1c95d8208)
+
+
 
 
 
