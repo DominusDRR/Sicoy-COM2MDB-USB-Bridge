@@ -133,5 +133,25 @@ La trama de este comenado es:
 ![image](https://github.com/user-attachments/assets/aba20f04-6fd6-45f9-a32e-c6c5318dbaf1)
 
 
+#### Comando de Seguridad de Billetera.
+
+Al emitir este comando, se debe incluir 2 bytes de datos. Cada bit de esos dos bytes indican el tipo de billete(s) con un nivel de seguridad "alto". Tenga en cuenta que los validadores que no admiten niveles de seguridad duales deben informar un nivel de seguridad "alto" en los bytes de respuesta Z9-Z10 al comando STATUS (31H). Por favor refiérase al manual del protocolo MDB para más detalles.
+
+Un ejemplo de esta trama es:
+
+0xFE 0x32 0x01 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0x30 0x00
+
+Cada parte de este comando es:
+
+0xFE 0x32 0x01 // Comando con su noveno bit en 1 lógico
+
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00 //  Estado de los bytes Z9-Z10
+
+0xFE 0x30 0x00 // CHK = 0x32 + 0xFF + 0xFF = 0x30
+
+
+
+
 
 
