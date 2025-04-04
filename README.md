@@ -4,16 +4,10 @@ Este repositorio contiene el manual del dispositivo Sicoy COM2MDB USB Bridge  y 
 
 ## [b. Características Físicas del dispositivo](CaracteristicasFisicas.md)  
 
+## [c. Explicación de los comandos MDB](Funcionamiento.md)  
 
-## Modos de funcionamiento  
+## [d. Comandos ASCII de consulta](ASCII.md)  
 
-### Conexión al PC  
-- Cómo conectarlo a un PC mediante USB.  
-- Uso del puerto COM virtual con software genérico.  
-
-### Comandos soportados  
-- Lista de comandos actuales.  
-- Futuras actualizaciones del firmware.  
 
 ## Actualización y recuperación  
 ### Modo Bootloader  
