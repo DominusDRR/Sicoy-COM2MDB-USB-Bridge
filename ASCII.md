@@ -38,6 +38,16 @@ Cada línea consta de tres partes, a la izquiera, lo que el Host envío, en el c
 
 ![image](https://github.com/user-attachments/assets/5605d902-ce71-4562-9c07-cd13b868522a)
 
+En algunas ocasiones pueden indicar que el periférico respondió con datos.
+
+![image](https://github.com/user-attachments/assets/e7d1dd1f-523a-4fa9-903d-817f7680996f)
+
+Para conocer estos datos, se puede recurrir al comando DATOS
+
+## Comando LOGS.
+
+
+
 
 
 
