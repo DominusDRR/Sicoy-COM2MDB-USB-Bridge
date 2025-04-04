@@ -219,4 +219,24 @@ Este comando tiene por respuesta un ACK.
 ![image](https://github.com/user-attachments/assets/44c08e2f-f58b-41e2-846b-637ba5abd2a7)
 
 
+#### Habilitación de caracteristicas especiales de billetera con subcomando igual a 0x01.
 
+Este comando se utiliza para habilitar cada una de las funciones opcionales definidas en los puntos del sub comando 0x00 (Aun no implementado) Z30 a Z33 anteriores correpondiente al comando . Para habilitar una función, se establece un bit en 1 ógico cada bite de los datos.
+
+A parte del subcomando, son necesarios 4 bytes que corresponden a las 32 opciones que poseen los campos Z30 a Z33.
+
+Un ejemplo de la trama de este comando es:
+
+0xFE 0x37 0x01 0xFE 0x01 0x00 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0xFF 0x00 0xFE 0x34 0x00
+
+De igual manera, si lo analizamos detenidamente, es así:
+
+0xFE 0x37 0x01 // Comando con su noveno bit en 1
+0xFE 0x01 0x00 // Subcomando en 0x01
+
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00 
+0xFE 0xFF 0x00 // Habilitando todos los bits de Z30 a Z33
+
+0xFE 0x37 0x00 // CHK = 0x37 = 0x0F + 0x01 + 0xFF + 0xFF + 0xFF + 0xFF
