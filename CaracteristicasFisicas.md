@@ -60,6 +60,12 @@ El quito led, se activa cuando está presente los 24V en el bus MDB
 Es una bornera de dos terminales para conectar 24VDC para el bus MDB, el terminal izquierdo, corresponde al terminal negativo, el terminal derecho corresponde al terminal positivo.
 
 Internamente hay un diodo rectificador para evitar una polarizacion inversa en el bus MDB, el diodo led correspondiente en el panel indica la polaridad correcta.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a11a7a0f-ef9e-45b5-888a-c23db8a7d254" alt="Conexión de 24V" width="100">
+</p>
+
    
 # Soporte de sujeción
 
