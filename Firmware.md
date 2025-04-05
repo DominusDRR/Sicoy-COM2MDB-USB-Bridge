@@ -36,5 +36,8 @@ En este modo, los diodos leds del panel frontal, se encienden de manera alternad
 
 ## Software de actualización.
 
-Una vez que el dispositivo está en el modo de bootloader, se debe ejecutar el software denominado UnifiedHost
+Una vez que el dispositivo está en el modo de bootloader, se debe ejecutar el software denominado UnifiedHost.
+
+![image](https://github.com/user-attachments/assets/245190b3-e495-4238-b91f-3f68e8a6ba49)
+
 
