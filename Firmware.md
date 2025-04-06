@@ -53,6 +53,26 @@ En configuración, seleccionamos el tipo de dispositivo USB, que tiene que se 3C
 ![image](https://github.com/user-attachments/assets/1043fa4e-a5a0-4d7b-aa33-018303c4333c)
 
 
+Podemos abrir la consola para ver los pasos que se realiza la actualización del firmware, esto es en la opción Tools.
+
+![image](https://github.com/user-attachments/assets/d85557e5-d9b6-4105-a816-67032177c7b3)
+
+En archivo, debemos seleccionar el archivo hexadecimal, que deseamos descargar al dispositivo:
+
+![image](https://github.com/user-attachments/assets/4baf64da-8b5b-4fac-a0be-ff42918f66b7)
+
+Y finalmente, presionamos el botón de programación:
+
+![image](https://github.com/user-attachments/assets/d62a08d5-8421-470d-af50-0786b87f43a0)
+
+El software hará todo lo necesario para programar al dispositivo, dichos pasos se verán en la consola y al finalizar, el dispositivo arrancará con la nueva versión:
+
+![image](https://github.com/user-attachments/assets/b1dfb9b2-6c57-4017-a49d-bf56e8e0c23a)
+
+
+
+
+
 
 
 
