@@ -40,4 +40,9 @@ Una vez que el dispositivo está en el modo de bootloader, se debe ejecutar el s
 
 ![image](https://github.com/user-attachments/assets/245190b3-e495-4238-b91f-3f68e8a6ba49)
 
+Luego seleccionamos en la opción de tipo de arquitectura a aquella que corresponde a PIC32.
+
+![image](https://github.com/user-attachments/assets/1a8d0ad5-7650-4b36-9634-dcd0d32e6696)
+
+
 
