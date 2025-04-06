@@ -48,6 +48,11 @@ A continuación, escogemos el tipo de protcolo USB:
 
 ![image](https://github.com/user-attachments/assets/c27dd808-1470-49cf-9297-3772a929745f)
 
+En configuración, seleccionamos el tipo de dispositivo USB, que tiene que se 3C:
+
+![image](https://github.com/user-attachments/assets/1043fa4e-a5a0-4d7b-aa33-018303c4333c)
+
+
 
 
 
