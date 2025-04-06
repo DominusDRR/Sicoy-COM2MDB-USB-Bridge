@@ -44,5 +44,10 @@ Luego seleccionamos en la opción de tipo de arquitectura a aquella que correspo
 
 ![image](https://github.com/user-attachments/assets/1a8d0ad5-7650-4b36-9634-dcd0d32e6696)
 
+A continuación, escogemos el tipo de protcolo USB:
+
+![image](https://github.com/user-attachments/assets/c27dd808-1470-49cf-9297-3772a929745f)
+
+
 
 
