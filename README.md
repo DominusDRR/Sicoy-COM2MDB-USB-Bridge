@@ -12,7 +12,7 @@ Este repositorio contiene el manual del dispositivo Sicoy COM2MDB USB Bridge  y 
 
 ## [f. Ultima versión del firmware](Hexadecimal.md) 
 
-## [g. Historial de cambios y actualizaciones del firmware(Hsitorial.md) 
+## [g. Historial de cambios y actualizaciones del firmware](Historial.md) 
 
  
 
