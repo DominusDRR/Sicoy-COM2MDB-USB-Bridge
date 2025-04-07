@@ -8,7 +8,7 @@ Hay básicamente 2 maneras de entrar en ese modo
 
 Este método es utilizando el comando ASCII denominado BOOT y se puede hacer cuando el dispositivo está funcionado correctamente
 
-![image](https://github.com/user-attachments/assets/7cda08ef-e66b-4d8b-b60e-57d1d0784946
+![image](https://github.com/user-attachments/assets/7cda08ef-e66b-4d8b-b60e-57d1d0784946)
 
 ## Ingreso por Hardware.
 
