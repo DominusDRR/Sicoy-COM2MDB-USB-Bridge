@@ -2,4 +2,5 @@
 
 Primera versión del firmware del dispositivo:
 
-[Descargar firmware](./SICOY MDB Fimrware 1_0_0.hex)
+[Descargar firmware](./SICOY%20MDB%20Firmware%201_0_0.hex)
+
